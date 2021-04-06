@@ -14,7 +14,7 @@ from tranprs.datasets import datasets_template
 
 It should return a dataset file (hail.MatrixTable or pandas.DataFrame).
 
-2. `methods`
+2. `methods` (/transprs/methods/)
 
 In this component, each file will perform an method. It can run in any language or software but we will try wrap it in Python.
 
@@ -28,7 +28,7 @@ methods_template(datasets_template)
 
 At the end, it should return a predicted results (hail.MatrixTable or pandas.DataFrame).
 
-3. `metrics`
+3. `metrics` (/transprs/metrics/)
 
 In this component, each file will calculate a metric.
 
