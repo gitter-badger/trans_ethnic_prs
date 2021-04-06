@@ -37,7 +37,7 @@ from tranprs.datasets import datasets_template
 from tranprs.methods import methods_template
 from tranprs.metrics import metrics_template
 
-# Perform a method
+# Calculate metric
 result = metrics_template(methods_template(datasets_template))
 ```
 
