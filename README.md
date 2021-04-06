@@ -9,7 +9,7 @@ The main components are:
 In this component, each file will be an dataset and could be call by:
 
 ```python
-from tranprs.datasets import datasets_template
+from transprs.datasets import datasets_template
 ```
 
 It should return a dataset file (hail.MatrixTable or pandas.DataFrame).
@@ -19,8 +19,8 @@ It should return a dataset file (hail.MatrixTable or pandas.DataFrame).
 In this component, each file will perform an method. It can run in any language or software but we will try wrap it in Python.
 
 ```python
-from tranprs.datasets import datasets_template
-from tranprs.methods import methods_template
+from transprs.datasets import datasets_template
+from transprs.methods import methods_template
 
 # Perform a method
 methods_template(datasets_template)
@@ -33,9 +33,9 @@ At the end, it should return a predicted results (hail.MatrixTable or pandas.Dat
 In this component, each file will calculate a metric.
 
 ```python
-from tranprs.datasets import datasets_template
-from tranprs.methods import methods_template
-from tranprs.metrics import metrics_template
+from transprs.datasets import datasets_template
+from transprs.methods import methods_template
+from transprs.metrics import metrics_template
 
 # Calculate metric
 result = metrics_template(methods_template(datasets_template))
