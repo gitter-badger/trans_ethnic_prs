@@ -1,6 +1,6 @@
 import pandas as pd
 
-def metric_template(
+def datasets_template(
 	) -> pd.DataFrame:
 	"""
 	Returns
