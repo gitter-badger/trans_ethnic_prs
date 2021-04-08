@@ -1,6 +1,6 @@
 import pandas as pd
 
-def metric_template(
+def methods_template(
 	data: pd.DataFrame,
 	) -> float:
 	"""

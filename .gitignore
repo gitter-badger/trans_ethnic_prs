@@ -110,6 +110,11 @@ ENV/
 env.bak/
 venv.bak/
 
+# Addition
+data/
+plink/
+/*.ipynb
+
 # Spyder project settings
 .spyderproject
 .spyproject
