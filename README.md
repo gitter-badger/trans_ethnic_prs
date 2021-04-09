@@ -1,5 +1,7 @@
 # trans_ethnic_prs
 
+[![Join the chat at https://gitter.im/trans_ethnic_prs/community](https://badges.gitter.im/trans_ethnic_prs/community.svg)](https://gitter.im/trans_ethnic_prs/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 I plan to store the data in the `MatrixTable` from [Hail](https://hail.is/docs/0.2/overview/matrix_table.html?highlight=matrix%20table) which is a type of Genomic Dataframes. They support different type of data like VCF, Plink files,...
 
 The main components are:
